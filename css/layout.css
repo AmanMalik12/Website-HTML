@@ -1,0 +1,262 @@
+.main-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+.top-horizontal-line {
+  width: 100%;
+}
+.top-container {
+  position: relative;  
+  max-width: 960px;   
+}
+
+.top-container .mobile-navigation-menu {
+  position: absolute;
+  right: 20px;
+  top: 43px;
+}
+.top-container .search-bar-icon {
+  position: absolute;
+  right: 80px;
+  top: 43px;
+}
+.top-container .search-field {
+  position: absolute;
+  left:0px;
+  top: 120px;
+  width: 100%;
+  display: none;
+  z-index: 7;
+  background-color: #f8f8f8;
+  margin: 0 auto;
+ padding-bottom:10px;
+}
+
+.mobile-navigation-menu img, .search-bar-icon img {
+  height: 30px;
+  width: 30px;
+}
+.site-logo-wrapper {
+  float: left;
+}
+.site-logo-text-wrapper {
+  float: left;
+}
+.top-header-right {
+  display: none;
+  width: 100%;
+}
+.search-bar-input {
+  width: 75%;
+  float: left;
+}
+.search-bar-button {
+  width: 25%;
+  float: left;
+  font-size: 12px;
+}
+.search-bar-input input {
+  margin-left: 10px;
+  width: 96.43%;
+  height: 22px;
+}
+.search-field .search-bar-input{
+  width: 80%;
+}
+.search-field .search-bar-input input{
+  width: 96%;
+}
+.search-field .search-bar-button{
+  width: 20%;
+}
+.search-bar-button button {
+  width: 90%;
+}
+
+.bottom-container {
+  max-width: 960px;
+}
+.bottom-header-left {
+  float: left;
+}
+
+.bottom-header-left ul li {
+  float: left;
+}
+
+.bottom-header-right {
+  float: right;
+}
+
+.bottom-header-right ul li,
+.social-media-icons li {
+  float: left;
+}
+
+.bottom-header-right ul li a .icon-container,
+.social-media-icons li a .icon-container {
+  height: 22px;
+  width: 22px;
+}
+
+.main-wrapper {
+  position: relative;
+}
+
+.main-wrapper .mobile-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+
+}
+.mobile-menu {
+  position: relative;
+}
+.mobile-menu .mobile-menu-header {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.mobile-menu-header img {
+  height: 30px;
+  width: 30px;
+}
+
+
+.mobile-menu-body .social-media-icons li a .icon-container {
+  margin-right: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.main-content {
+  max-width: 1950px;
+}
+.slider-container {
+  width: 100%;
+  position: relative;
+}
+.slide img {
+  width: 100%;
+  max-height: 700px;
+}
+
+.horizontal-line{
+    width: 100%; 
+}
+.horizontal-line img{
+    max-width: 100%;
+}
+.project-work-title{
+    float: left;
+    width: 42.1%;
+}
+
+  .project-work-list ul li{
+    max-width: 274px;
+  }
+  
+  .project-work-list ul li div{
+    width: 100%;
+  }
+  
+  .top-footer-container, .bottom-footer-container{
+    max-width: 960px;
+  }
+
+
+.link-block-list li{
+  width: 300px
+}
+
+.newsletter-input input{
+  height: 20px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .search-bar-icon {
+    display: none;
+  }
+  
+  .top-header-right {
+    display: block;
+  }
+  .site-logo-text-wrapper {
+    display: block;
+  }    
+  .project-work-list ul li{
+    float: left;
+  }
+  .project-work-list ul li:first-child{
+    margin-right: 20px;
+  }
+  .top-footer-left{
+    float: left;     
+    width: 61%; 
+  }
+  .top-footer-right{
+    float: right;
+  }
+  .top-footer-left-most{
+    float: left;
+    width: 44.33%;
+  }
+  .top-footer-right{
+   width: 33.33%;
+  }
+  .top-footer-center{
+    float: left;
+    width: 18.66%;
+  }
+  .link-block-list li{
+    width:210px
+  }
+}
+@media screen and (min-width: 1025px) {
+  .top-header-left {
+    float: left;
+  }
+  .top-header-right {
+    float: right;
+    width: auto;
+  }
+  .search-bar-input{
+      float: left;
+  }
+  .search-bar-button{
+      float: left;
+  }
+  .search-bar-input input {
+      width: 215px;
+    }
+
+    .project-work-list{
+      float:left;    
+    }
+    .bottom-footer-left{
+      float: left;
+    }
+    .bottom-footer-right{
+      float: right;
+    }
+    .link-block-list li{
+      width: 300px
+    }
+    .top-footer-left{
+      width: auto;    
+    }
+    .top-footer-left-most{
+      width: auto;
+      max-width: 285px;
+    }
+    .top-footer-right{
+      width: auto;
+      max-width: 300px;
+    }
+    .top-footer-center{
+      width: auto;
+    }
+}
+

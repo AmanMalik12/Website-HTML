@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f8f8f8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
